@@ -1,5 +1,13 @@
 # My Phone Book
 
+
+A small desktop contact manager built with PySide6.
+
+![Add Contact tab](screenshots/add-tab.png)
+![View Contacts tab](screenshots/list-tab.png)
+
+...
+
 A small desktop contact manager built with **PySide6 (Qt for Python)**.
 Add contacts through a form, view them in a list, delete them — and everything
 persists to disk as JSON between sessions.
