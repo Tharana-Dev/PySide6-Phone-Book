@@ -15,7 +15,7 @@ class Contact:
             raise ValueError("No fields can be left blank")
         
         object.__setattr__(self, "first_name", self.first_name.strip())
-        object.__setattr__(self, "lastt_name", self.last_name.strip())
+        object.__setattr__(self, "last_name", self.last_name.strip())
         object.__setattr__(self, "phone", self.phone.strip())
         object.__setattr__(self, "email", self.email.strip())
 
