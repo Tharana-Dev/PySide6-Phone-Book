@@ -1,0 +1,16 @@
+# Data file — created at runtime, contains user data
+contacts.json
+
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+env/
+
+# Editors
+.vscode/
+.idea/
+*.swp
+.DS_Store
