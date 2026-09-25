@@ -171,3 +171,10 @@ def test_load_missing_field(tmp_path: Path):
 
     with pytest.raises(ValueError):
         ContactBook().load(path)
+
+def test_contact_strips_whitespace():
+    c = Contact("  Ada  ", "  Lovelace  ", "  123  ", "  a@b.com  ")
+    assert c.first_name == "Ada"
+    assert c.last_name == "Lovelace"
+    assert c.phone == "123"
+    assert c.email == "a@b.com"
